@@ -11,10 +11,19 @@
 * 실습 외에 새롭게 알게 된 내용이나 트러블슈팅 사례가 있을 경우, GitHub Issue에 정리합니다. 
 
 ## 📁 프로젝트 구조
-- `MoonJeong-app/` : 문정
-- `dayeon-app/` : 다연
-- `shared/` : 공통 스터디 자료
-
+```bash
+modern-api-spring-study/
+├── MoonJeong-app/             # 문정
+│   ├── src/
+│   ├── build.gradle
+│   └── docs/
+├── dayeon-app/                # 다연
+│   ├── src/
+│   ├── build.gradle
+│   └── docs/
+├── shared/                    # 공통 자료
+└── README.md
+```
 ## ⚙ 브랜치 전략
 ```bash
 main -> MoonJeong/chapter1
@@ -32,7 +41,7 @@ cd dayeon-app
 ./gradlew bootRun
 ```
 
-## 📅주차별 진행 내용
+## 📅 주차별 진행 내용
 
 <details>
 <summary> 매주 학습 분량을 정해 진행합니다. (구체적인 범위는 전주에 협의하여 결정) </summary>
