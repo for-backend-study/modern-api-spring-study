@@ -15,7 +15,7 @@
 - `dayeon-app/` : 다연
 - `shared/` : 공통 스터디 자료
 
-## 브랜치 전략
+## ⚙ 브랜치 전략
 ```bash
 main -> MoonJeong/chapter1
 main -> dayeon/chapter2
