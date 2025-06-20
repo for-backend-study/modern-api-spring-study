@@ -26,8 +26,8 @@ modern-api-spring-study/
 ```
 ## ⚙ 브랜치 전략
 ```bash
-main -> MoonJeong/chapter1
-main -> dayeon/chapter2
+main -> MoonJeong -> MoonJeong/chapter1
+main -> dayeon -> dayeon/chapter2
 ```
 
 ## 🔎 실행 방법
