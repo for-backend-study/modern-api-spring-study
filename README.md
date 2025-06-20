@@ -10,12 +10,27 @@
 * PR은 자신의 브랜치에서 생성하며, 본인이 직접 Merge합니다.
 * 실습 외에 새롭게 알게 된 내용이나 트러블슈팅 사례가 있을 경우, GitHub Issue에 정리합니다. 
 
-## 프로젝트 구조
-- `MoonJeong-app/` : 문정
-- `dayeon-app/` : 다연
-- `shared/` : 공통 스터디 자료
+## 📁 프로젝트 구조
+```bash
+modern-api-spring-study/
+├── MoonJeong-app/             # 문정
+│   ├── src/
+│   ├── build.gradle
+│   └── docs/
+├── dayeon-app/                # 다연
+│   ├── src/
+│   ├── build.gradle
+│   └── docs/
+├── shared/                    # 공통 자료
+└── README.md
+```
+## ⚙ 브랜치 전략
+```bash
+main -> MoonJeong/chapter1
+main -> dayeon/chapter2
+```
 
-## 실행 방법
+## 🔎 실행 방법
 ```bash
 # 문정 프로젝트 실행
 cd MoonJeong-app
@@ -24,3 +39,18 @@ cd MoonJeong-app
 # 다연 프로젝트 실행
 cd dayeon-app
 ./gradlew bootRun
+```
+
+## 📅 주차별 진행 내용
+
+<details>
+<summary> 매주 학습 분량을 정해 진행합니다. (구체적인 범위는 전주에 협의하여 결정) </summary>
+
+- 1주차 
+1. RESTful 웹서비스 기본사항 
+2. 스프링의 개념과 REST API
+3. API 명세 및 구현
+4. API를 위한 비즈니스 로직 작성 
+
+
+</details>
