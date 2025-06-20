@@ -17,10 +17,10 @@
 
 ## 실행 방법
 ```bash
-# Member1 프로젝트 실행
-cd member1-project
+# 문정 프로젝트 실행
+cd MoonJeong-app
 ./gradlew bootRun
 
-# Member2 프로젝트 실행
-cd member2-project
+# 다연 프로젝트 실행
+cd dayeon-app
 ./gradlew bootRun
