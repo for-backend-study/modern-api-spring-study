@@ -31,3 +31,17 @@ cd MoonJeong-app
 cd dayeon-app
 ./gradlew bootRun
 ```
+
+## 📅주차별 진행 내용
+
+<details>
+<summary> 매주 학습 분량을 정해 진행합니다. (구체적인 범위는 전주에 협의하여 결정) </summary>
+
+- 1주차 
+  1. RESTful 웹서비스 기본사항 
+  2. 스프링의 개념과 REST API
+  3. API 명세 및 구현
+  4. API를 위한 비즈니스 로직 작성 
+
+
+</details>
