@@ -15,6 +15,12 @@
 - `dayeon-app/` : 다연
 - `shared/` : 공통 스터디 자료
 
+## 브랜치 전략
+```bash
+main -> MoonJeong/chapter1
+main -> dayeon/chapter2
+```
+
 ## 🔎 실행 방법
 ```bash
 # 문정 프로젝트 실행
@@ -24,3 +30,4 @@ cd MoonJeong-app
 # 다연 프로젝트 실행
 cd dayeon-app
 ./gradlew bootRun
+```
