@@ -1,0 +1,30 @@
+# IntelliJ IDEA 설정
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 빌드 및 배포 산출물
+/build/
+/out/
+/target/
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+
+# 로그 / 임시파일 / 기타
+*.log
+*.tmp
+*.bak
+
+# 환경 파일 (보안 이유)
+/.env
+.env.*  # 예: .env.dev, .env.local 등
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 기타 IDE 설정
+.vscode/
